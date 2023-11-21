@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#lobby-container{
+    padding: 5rem;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #262625;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#form_container_header {
+    text-align: center;
+}
+
+#form_content_wrapper {
+   display: flex;
+   justify-content: center;
+    
+}
+
+#join-form {
+    display: flex;
+    gap: 1rem;
+}
+
+input {
+    box-sizing: border-box;
+    color: #fff;
+    width: 300px;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 20px;
+    font-size: 15px;
+    background-color: #3f434a;
+}
+
+input[type='submit'] {
+    background-color: rgba(156, 49, 255, 0.9);
+    width: auto;
+  }
+
+ 
+
+
+
